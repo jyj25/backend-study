@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>백엔드 스터디</title>
+  <meta name="description" content="백엔드 필수 개념을 읽고, 외우고, 퀴즈로 복습하는 학습 사이트">
+  <meta name="theme-color" content="#4f6df5">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E⚡%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#/">⚡ 백엔드 스터디</a>
+    <nav id="nav">
+      <a href="#/concepts" data-r="concepts">개념</a>
+      <a href="#/flashcards" data-r="flashcards">단어 암기</a>
+      <a href="#/quiz" data-r="quiz">퀴즈</a>
+      <a href="#/wrong" data-r="wrong">오답노트 <span id="wrongBadge" class="badge" hidden></span></a>
+    </nav>
+    <button id="themeBtn" class="icon-btn" title="테마 전환">🌙</button>
+  </header>
+  <main id="app"></main>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
